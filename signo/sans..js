@@ -24,7 +24,7 @@ function update() {
 
 	if (rate_timer <= 0) {
 		rate_timer += percent_time;
-		rate += 0.02;
+		rate += 0.01;
 		sans.rate(rate);
 		document.getElementById("speed").innerHTML = "speed: " + (rate * 100).toFixed(0) + "%";
 	}
