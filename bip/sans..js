@@ -26,7 +26,7 @@ function update() {
 		rate_timer += percent_time;
 		rate += 0.05;
 		sans.rate(rate);
-		document.getElementById("speed").innerHTML = "MIIII: " + (rate * 100).toFixed(0) + "%" + rate ".";
+		document.getElementById("speed").innerHTML = "MIIII: " + (rate * 100).toFixed(0) + "%";
 	}
 
 	document.getElementById("sans").style.top = ((rate - Math.random() * rate * 2)+((divheight-500)/2)) + "px";
