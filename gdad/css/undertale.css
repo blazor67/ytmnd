@@ -1,7 +1,7 @@
 @import url("webfont.css");
 
 html, body {
-	background-color: 205FC6;
+	background-color: "205FC6";
 	color: white;
 	font-family: "Determination Sans", Fixedsys, sans-serif;
 	font-weight: normal;
