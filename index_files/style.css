@@ -14,3 +14,6 @@ footer {
     width: 100%;
 	background-image: url("bg2.png");
 }
+#canguro {
+	text-shadow: 2px 2px #666666;
+}
