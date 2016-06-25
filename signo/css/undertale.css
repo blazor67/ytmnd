@@ -12,8 +12,8 @@ html, body {
 #rumbling_sans {
 	display: block;
 	position: fixed;
-	width: 75%;
-	height: 75%;
+	width: 85%;
+	height: 85%;
 	overflow: hidden;
 }
 
